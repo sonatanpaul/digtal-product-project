@@ -31,3 +31,62 @@
 .item:hover{
     color: blue;
     cursor: pointer;
+}
+
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    color: white;
+    align-items: center;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg, #000, #2e2b2b );
+
+}
+
+.banner-img{
+    width: 300px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 55px;
+
+
+}
+
+.descrition{
+font-size: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.button-link{
+    padding: 12px 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button-link:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 55px;
+}
