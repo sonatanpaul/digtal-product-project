@@ -37,7 +37,7 @@
 .banner-container{
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    height: 600px;
     color: white;
     align-items: center;
     background-image: url("./images/background.png"),
@@ -72,7 +72,7 @@ margin-bottom: 15px;
 }
 
 .button-link:hover{
-    background-color: white;
+    background-color: rgb(191, 92, 92);
     color: black;
 }
 
@@ -89,4 +89,46 @@ margin-bottom: 15px;
     text-align: center;
     padding-top: 40px;
     font-size: 55px;
+}
+
+.p-section{
+    margin-bottom: 18px;
+
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+    height: 600px;
+    background-image: url("./images/background.png") ,
+    linear-gradient(45deg, #000, #4f3d3d);
+}
+
+
+.box{
+    width: 230px;
+    height: 350px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.icon-img{
+    width: 70px;
+}
+
+.box-btn{
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.box-title{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
